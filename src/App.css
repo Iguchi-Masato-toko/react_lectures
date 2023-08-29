@@ -27,6 +27,30 @@
 .App-link {
   color: #61dafb;
 }
+.react_wrap {
+  width: 1250px;
+  margin: 0 auto;
+}
+.react_wrap > div {
+  margin: 25px auto 0;
+}
+
+.react_wrap .parentsContents {
+  width: 1200px;
+  padding: 30px;
+  color: #fff;
+  border:1px solid #000;
+  background-color: green;
+}
+
+.react_wrap .childContents {
+  height: 300px;
+  padding: 30px;
+  border: 1px solid #000;
+  background-color: #46d9cd;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
